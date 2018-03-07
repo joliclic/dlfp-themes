@@ -1,15 +1,15 @@
 .misspelled {
   color: inherit;
   background-color: inherit;
-  border-bottom: 1px dashed red;
+  border-bottom: 1px dashed $C_DANGER;
 }
 
 .anchor {
   &, &:visited {
-    color: #aaa;
+    color: $ANCHOR-TXT-COLOR;
   }
   &:hover {
-    color: #333;
+    color: $ANCHOR-OVER-TXT-COLOR;
   }
 }
 
@@ -26,7 +26,8 @@
 }
 
 .signature {
-  color: #999;
+  // color: #999;
+  color: #666;
   font-size: 0.68em;
   &:before {
     white-space: pre-line;
@@ -35,5 +36,5 @@
 }
 
 #edition img[alt="Titre de l'image"] {
-  border: 3px dotted red;
+  border: 3px dotted $C_DANGER;
 }
