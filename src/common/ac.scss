@@ -1,24 +1,4 @@
-// Autocomplete$C_CLAIR
-// $C_CLAIR: #E9E6E4 !default;
-// $C_INTER: #A99C90 !default;
-// $C_CLAIR: #1C1816 !default;
-// $C_INTER: #706356 !default;
-$C_GRAY_BASE:    #000 !default;
-$C_PRIMARY: #1C1917 !default;
-$C_NEUTRAL: #84786c !default;
-
-$AC-BG-COLOR: $C_PRIMARY !default;
-// $AC-ODD-BG-COLOR: #eeeeee !default;
-$AC-ODD-BG-COLOR: #121212 !default;
-// $AC-OVER-BG-COLOR: #0a246a !default;
-$AC-OVER-BG-COLOR: #94aef5 !default;
-// $AC-OVER-TXT-COLOR: white !default;
-$AC-OVER-TXT-COLOR: $C_GRAY_BASE !default;
-$AC-BORDER-COLOR: $C_NEUTRAL !default;
-
-
-$IMG_PATH: 'images' !default;
-
+// Autocomplete
 
 .ac_loading {
   // background: white url('#{$IMG_PATH}/ajax-loader.gif') right center no-repeat;

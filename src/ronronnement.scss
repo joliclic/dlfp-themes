@@ -2,15 +2,6 @@
 /* Copyright 2010 Nicolas Schoonbroodt (css) <nicolas@elsewhere.be>      */
 /* Distributed under GNU AGPL v3 License                                 */
 
-@import 'common/ac';
-@import 'common/generics';
-@import 'common/langs';
-@import 'common/markitup';
-@import 'common/statistics';
-@import 'common/doorkeeper';
-@import 'pygments/colorful';
-@import 'print';
-
 $IMG_PATH: 'images';
 $ICON_PATH: '#{$IMG_PATH}/icones';
 
