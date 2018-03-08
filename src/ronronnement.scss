@@ -33,14 +33,12 @@ $fleche_offset_vertical: 30px;
 
 /* un lien bleu/rouge visité normal */
 @mixin lien_standard {
-  // color: #0000EE;
   color: $STD-LINK-COLOR;
   font-weight: inherit;
   &:hover {
     text-decoration: inherit;
   }
   &:visited {
-    // color: #551A8B;
     color: $STD-LINK-HOVER-COLOR;
   }
 }
@@ -56,14 +54,11 @@ html {
 
 body {
   position: relative;
-  // color: #000;
   color: $TXT-COLOR;
   max-width: 150ex;
   margin: 0 auto;
-  // border: solid #999;
   border: solid $BODY-BORDER-COLOR;
   border-width: 0 1px;
-  // background: linear-gradient(90deg, $C_CLAIR, $C_CLAIR $PX_BRANDING_LARG, $C_CONTAINER $PX_BRANDING_LARG, $C_CONTAINER) #fff;
   background: linear-gradient(90deg,
                               $BODY-GRD-COLOR-0,
                               $BODY-GRD-COLOR-0 $PX_BRANDING_LARG,
@@ -99,7 +94,6 @@ input[type='submit'] {
   padding-right: 5px;
   margin: 3px;
   font-weight: normal;
-  // color: black;
   color: $BTN-TXT-COLOR;
   background-color: $BTN-BG-COLOR;
   border: 1px solid $BTN-BORDER-COLOR;
@@ -350,7 +344,6 @@ a.edit_client_app,
       display: inline-block;
       text-align: center;
       font-size: 1em;
-      // color: white;
       color: $LABEL-TXT-COLOR;
       background: $LABEL-BG-COLOR;
       max-width: 80%;
@@ -367,7 +360,6 @@ a.edit_client_app,
     h1 + *  { margin-top: -2em; }
 
     span.score {
-      // color: #333;
       color: $LABEL-SCORE-TXT-COLOR;
       &:before { content: " ["; }
       &:after  { content: "] "; }
@@ -406,10 +398,6 @@ a.edit_client_app,
   text-transform: uppercase;
   font-size: 0.8em;
   color: $MAINMENU-TXT-COLOR;
-
-  // background-color: #bdb3aa;
-  // background: -webkit-linear-gradient(left, #fff, #e7e3e0 $PX_BRANDING_LARG, #bdb3aa 50%);
-  // background: linear-gradient(to right, #fff, #e7e3e0 $PX_BRANDING_LARG, #bdb3aa 50%);
   background-color: $MAINMENU-BG-COLOR;
   background: -webkit-linear-gradient(left, $MAINMENU-GRD-COLOR-0,
                                             $MAINMENU-GRD-COLOR-1 $PX_BRANDING_LARG,
@@ -570,7 +558,6 @@ a.edit_client_app,
   margin-left: auto;
   margin-right: auto;
   background-color: $C_BD2;
-  // box-shadow: 0 0 65px #fff inset, 0 0 20px $C_BD2 inset;
   box-shadow: 0 0 65px $BANNER-SHADOW-INSET-COLOR inset, 0 0 20px $C_BD2 inset;
   border-top: solid 2px $C_BANDEAU;
   border-bottom: solid 2px $C_BANDEAU;
@@ -599,8 +586,7 @@ body#wiki_pages-changes #contents,
 body#admin-index #container > ul,
 #redaction #chat {
   display: block;
-  // background: white;
-  background: black;
+  background: $BLOCK-BG-COLOR;
 
   padding: 10px $PX_PAD_NODE 10px $PX_PAD_NODE;
 
@@ -687,7 +673,6 @@ article {
     -webkit-border-image: url("#{$IMG_PATH}/darkyronron/darky-coin-transparent.png") 0 0 0 15;
     border-image:         url("#{$IMG_PATH}/darkyronron/darky-coin-transparent.png") 0 0 0 15;
     border-style: solid;
-    // color: white;
     color: $LABEL-DATE-TXT-COLOR;
     padding: 0;
     margin-bottom: 2px;
@@ -979,15 +964,12 @@ a.scroll {
 }
 .notice-item {
   min-height: 60px;
-  // background: #333333;
   background: $NOTICEITEM-BG-COLOR;
   border-radius: 6px;
-  // color: #eeeeee;
   color: $NOTICEITEM-TXT-COLOR;
   padding: 6px 6px 0 6px;
   font-family: lucida Grande, sans-serif;
   font-size: 11px;
-  // border: 2px solid #999999;
   border: 2px solid $NOTICEITEM-BORDER-COLOR;
   display: block;
   position: relative;
@@ -1133,14 +1115,11 @@ body#boards-show {
 #redaction_board {
   #board_message {
     box-sizing: border-box;
-    // border: 1px solid #999;
     border: 1px solid $BOARD-INPUT-BORDER-COLOR;
     padding: 4px;
   }
   div.chat {
-    // border: 1px solid #999;
     border: 1px solid $BOARD-DIVCHAT-BORDER-COLOR;
-    // background-color: white;
     background-color: $BOARD-DIVCHAT-BG-COLOR;
     padding: 0.2em;
   }
@@ -1151,7 +1130,6 @@ body#boards-show {
     margin: 0.2em;
   }
   .norloge, .user_link a {
-    // color: #555;
     color: $BOARD-LINK-COLOR;
     font-size: 1em;
     font-weight: normal;
@@ -1203,7 +1181,6 @@ body#boards-show {
 }
 .norloge {
   font-weight: bold;
-  // color: black;
   color: $MAINBOARD-HORLOGE-COLOR;
   font-family: monospace;
   font-size: 11px;
@@ -1413,22 +1390,18 @@ body#redaction-index {
   .news {
     flex: 1 0 225px;
     margin: 0 25px 10px 0;
-    // border: 1px solid #999;
     border: 1px solid $WRITINGLISTING-NEWS-BORDER-COLOR;
     padding: 6px;
-    // background: #fff;
     background: $WRITINGLISTING-NEWS-BG-COLOR;
     display: flex;
     flex-direction: column;
     position: relative;
     font-size: 0.8em;
-    // color: #555;
     color: $WRITINGLISTING-NEWS-TXT-COLOR;
   }
   h3 {
     flex: 1;
     font-size: 1.1rem;
-    // color: #000;
     color: $WRITINGLISTING-H3-COLOR;
     margin: 12px 16px 12px 0;
   }
@@ -1440,7 +1413,6 @@ body#redaction-index {
     top: 50%;
     margin-top: -16px;
     border-radius: 16px;
-    // background: #999;
     background: $WRITINGLISTING-PEN-BG-COLOR;
     img { width: 16px; height: 16px; margin: 8px; }
   }
@@ -1492,7 +1464,6 @@ body#redaction-index {
       }
     }
     &:hover {
-      // background-color: #cccccc66;
       background-color: $EDIT-BLOCK-OVER-BG-COLOR;
       .actions button { visibility: visible; }
     }
@@ -1682,7 +1653,6 @@ img {
     margin: 0;
     padding: 0;
     border: 0;
-    // background: #fff;
     background: $MINI-BG-COLOR;
   }
   ul { padding-left: 15px; }
@@ -1693,14 +1663,12 @@ img {
     position: static;
     padding: 0 3px;
     box-sizing: border-box;
-    // background: linear-gradient(to right, #e7e3e0, #bdb3aa 50%);
     background: linear-gradient(to right, 
                                 $MINI-MAINMENU-GRD-COLOR-0, 
                                 $MINI-MAINMENU-GRD-COLOR-1 50%);
   }
 
   #sidebar {
-    // background: #fff;
     background: $MINI-SIDEBAR-BG-COLOR;
     width: 100%;
     margin-top: 5px;
