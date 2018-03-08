@@ -6,6 +6,8 @@ $IMG_PATH: 'images';
 $ICON_PATH: '#{$IMG_PATH}/icones';
 
 /* Pixel size constants */
+$HTML_TOP_HEADBAND_HEIGHT: 134px;
+
 $PX_MARGE_GAUCHE: 42px;
 $PX_MARGE_DROITE: 30px;
 $PX_BANDEAU: 7px;
@@ -43,11 +45,24 @@ $fleche_offset_vertical: 30px;
   }
 }
 
+@mixin html_background {
+  background-image: -webkit-linear-gradient(
+    $HTML-TOP-BG-COLOR, 
+    $HTML-TOP-BG-COLOR $HTML_TOP_HEADBAND_HEIGHT, 
+    $HTML-BOTTOM-BG-COLOR $HTML_TOP_HEADBAND_HEIGHT, 
+    $HTML-BOTTOM-BG-COLOR 100%
+  );
+  background-image: linear-gradient(
+    $HTML-TOP-BG-COLOR, 
+    $HTML-TOP-BG-COLOR $HTML_TOP_HEADBAND_HEIGHT, 
+    $HTML-BOTTOM-BG-COLOR $HTML_TOP_HEADBAND_HEIGHT, 
+    $HTML-BOTTOM-BG-COLOR 100%
+  );
+}
+
 html {
   background: $HTML-BG-COLOR;
-  background-image: url('#{$IMG_PATH}/darkyronron/darky_background_html.png');
-  background-repeat: repeat-x;
-  background-position: top;
+  @include html_background;
   font-family: sans-serif;
   padding: 0 $PX_MARGE_DROITE 0 $PX_MARGE_GAUCHE;
 }
