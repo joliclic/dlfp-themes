@@ -811,17 +811,17 @@ footer.actions {
         border: none;
       }
       .add_tag  {
-        background: no-repeat 1px 4px / 12px white;
+        background: no-repeat 1px 4px / 12px $TAGTOOLS-BG-COLOR;
         background-image: url("#{$ICON_PATH}/tag.png");
         background-image: url("#{$ICON_PATH}/tag.svg"), none;
         &[disabled] {
-          background: no-repeat 1px 4px / 12px white;
+          background: no-repeat 1px 4px / 12px $TAGTOOLS-BG-COLOR;
           background-image: url("#{$ICON_PATH}/tagged.png");
           background-image: url("#{$ICON_PATH}/tagged.svg"), none;
         }
       }
       .remove_tag {
-        background: no-repeat 0 6px / 11px white;
+        background: no-repeat 0 6px / 11px $TAGTOOLS-BG-COLOR;
         background-image: url("#{$ICON_PATH}/x.png");
         background-image: url("#{$ICON_PATH}/x.svg"), none;
         &[disabled] { display: none; }

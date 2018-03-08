@@ -648,15 +648,15 @@ footer.actions .button_to {
         padding: 0;
         border: none; }
       .tags ul li .add_tag {
-        background: no-repeat 1px 4px / 12px white;
+        background: no-repeat 1px 4px/12px #fff;
         background-image: url("images/icones/tag.png");
         background-image: url("images/icones/tag.svg"), none; }
         .tags ul li .add_tag[disabled] {
-          background: no-repeat 1px 4px / 12px white;
+          background: no-repeat 1px 4px/12px #fff;
           background-image: url("images/icones/tagged.png");
           background-image: url("images/icones/tagged.svg"), none; }
       .tags ul li .remove_tag {
-        background: no-repeat 0 6px / 11px white;
+        background: no-repeat 0 6px/11px #fff;
         background-image: url("images/icones/x.png");
         background-image: url("images/icones/x.svg"), none; }
         .tags ul li .remove_tag[disabled] {
