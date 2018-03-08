@@ -690,7 +690,7 @@ footer.actions .button_to {
     display: inline;
     height: 1em; }
   .content a {
-    color: #5555ff;
+    color: #66b7ff;
     font-weight: inherit;
     border-bottom: 1px solid; }
     .content a:hover {
@@ -1000,7 +1000,7 @@ body#boards-show #container {
 
 .board-right a {
   font-size: small;
-  color: #5555ff;
+  color: #66b7ff;
   font-weight: inherit;
   font-weight: bold; }
   .board-right a:hover {
@@ -1320,7 +1320,7 @@ body#registrations-edit table {
   body#trackers-index #contents table a[href],
   body#applications-index table a[href],
   body#registrations-edit table a[href] {
-    color: #5555ff;
+    color: #66b7ff;
     font-weight: inherit; }
     body#dashboard-index #contents table a[href]:hover,
     body#trackers-index #contents table a[href]:hover,
@@ -1385,7 +1385,7 @@ body#sections-index .body {
 body#sections-index #contents a[href],
 body#admin-index #container > ul a[href],
 body#wiki_pages-changes #contents a[href] {
-  color: #5555ff;
+  color: #66b7ff;
   font-weight: inherit; }
   body#sections-index #contents a[href]:hover,
   body#admin-index #container > ul a[href]:hover,
@@ -1940,7 +1940,13 @@ body#oauth-authorize .deny_app {
 code {
   /* Comment */
   /* Error */
+  /* Generic */
   /* Keyword */
+  /* Literal */
+  /* Name */
+  /* Operator */
+  /* Other */
+  /* Punctuation */
   /* Comment.Multiline */
   /* Comment.Preproc */
   /* Comment.Single */
@@ -1961,6 +1967,7 @@ code {
   /* Keyword.Pseudo */
   /* Keyword.Reserved */
   /* Keyword.Type */
+  /* Literal.Date */
   /* Literal.Number */
   /* Literal.String */
   /* Name.Attribute */
@@ -1968,10 +1975,12 @@ code {
   /* Name.Class */
   /* Name.Constant */
   /* Name.Decorator */
+  /* Name.Entity */
   /* Name.Exception */
   /* Name.Function */
   /* Name.Label */
   /* Name.Namespace */
+  /* Name.Other */
   /* Name.Property */
   /* Name.Tag */
   /* Name.Variable */
@@ -1998,163 +2007,164 @@ code {
   /* Name.Variable.Instance */
   /* Literal.Number.Integer.Long */ }
   code .hll {
-    background-color: #ffffcc; }
+    background-color: #404040; }
   code .c {
-    color: #888888; }
+    color: #999999;
+    font-style: italic; }
   code .err {
     color: #a61717;
     background-color: #e3d2d2; }
+  code .g {
+    color: #d0d0d0; }
   code .k {
-    color: #008800;
+    color: #6ab825;
     font-weight: bold; }
+  code .l {
+    color: #d0d0d0; }
+  code .n {
+    color: #d0d0d0; }
+  code .o {
+    color: #d0d0d0; }
+  code .x {
+    color: #d0d0d0; }
+  code .p {
+    color: #d0d0d0; }
   code .cm {
-    color: #888888; }
+    color: #999999;
+    font-style: italic; }
   code .cp {
-    color: #cc0000;
+    color: #cd2828;
     font-weight: bold; }
   code .c1 {
-    color: #888888; }
+    color: #999999;
+    font-style: italic; }
   code .cs {
-    color: #cc0000;
+    color: #e50808;
     font-weight: bold;
-    background-color: #fff0f0; }
+    background-color: #520000; }
   code .gd {
-    color: #000000;
-    background-color: #ffdddd; }
+    color: #d22323; }
   code .ge {
+    color: #d0d0d0;
     font-style: italic; }
   code .gr {
-    color: #aa0000; }
+    color: #d22323; }
   code .gh {
-    color: #303030; }
+    color: #ffffff;
+    font-weight: bold; }
   code .gi {
-    color: #000000;
-    background-color: #ddffdd; }
+    color: #589819; }
   code .go {
-    color: #888888; }
+    color: #cccccc; }
   code .gp {
-    color: #555555; }
+    color: #aaaaaa; }
   code .gs {
+    color: #d0d0d0;
     font-weight: bold; }
   code .gu {
-    color: #606060; }
+    color: #ffffff;
+    text-decoration: underline; }
   code .gt {
-    color: #aa0000; }
+    color: #d22323; }
   code .kc {
-    color: #008800;
+    color: #6ab825;
     font-weight: bold; }
   code .kd {
-    color: #008800;
+    color: #6ab825;
     font-weight: bold; }
   code .kn {
-    color: #008800;
+    color: #6ab825;
     font-weight: bold; }
   code .kp {
-    color: #008800; }
+    color: #6ab825; }
   code .kr {
-    color: #008800;
+    color: #6ab825;
     font-weight: bold; }
   code .kt {
-    color: #888888;
+    color: #6ab825;
     font-weight: bold; }
+  code .ld {
+    color: #d0d0d0; }
   code .m {
-    color: #0000DD;
-    font-weight: bold; }
+    color: #3677a9; }
   code .s {
-    color: #dd2200;
-    background-color: #fff0f0; }
+    color: #ed9d13; }
   code .na {
-    color: #336699; }
+    color: #bbbbbb; }
   code .nb {
-    color: #003388; }
+    color: #24909d; }
   code .nc {
-    color: #bb0066;
-    font-weight: bold; }
+    color: #447fcf;
+    text-decoration: underline; }
   code .no {
-    color: #003366;
-    font-weight: bold; }
+    color: #40ffff; }
   code .nd {
-    color: #555555; }
+    color: #ffa500; }
+  code .ni {
+    color: #d0d0d0; }
   code .ne {
-    color: #bb0066;
-    font-weight: bold; }
+    color: #bbbbbb; }
   code .nf {
-    color: #0066bb;
-    font-weight: bold; }
+    color: #447fcf; }
   code .nl {
-    color: #336699;
-    font-style: italic; }
+    color: #d0d0d0; }
   code .nn {
-    color: #bb0066;
-    font-weight: bold; }
+    color: #447fcf;
+    text-decoration: underline; }
+  code .nx {
+    color: #d0d0d0; }
   code .py {
-    color: #336699;
-    font-weight: bold; }
+    color: #d0d0d0; }
   code .nt {
-    color: #bb0066;
+    color: #6ab825;
     font-weight: bold; }
   code .nv {
-    color: #336699; }
+    color: #40ffff; }
   code .ow {
-    color: #008800; }
+    color: #6ab825;
+    font-weight: bold; }
   code .w {
-    color: #bbbbbb; }
+    color: #666666; }
   code .mf {
-    color: #0000DD;
-    font-weight: bold; }
+    color: #3677a9; }
   code .mh {
-    color: #0000DD;
-    font-weight: bold; }
+    color: #3677a9; }
   code .mi {
-    color: #0000DD;
-    font-weight: bold; }
+    color: #3677a9; }
   code .mo {
-    color: #0000DD;
-    font-weight: bold; }
+    color: #3677a9; }
   code .sb {
-    color: #dd2200;
-    background-color: #fff0f0; }
+    color: #ed9d13; }
   code .sc {
-    color: #dd2200;
-    background-color: #fff0f0; }
+    color: #ed9d13; }
   code .sd {
-    color: #dd2200;
-    background-color: #fff0f0; }
+    color: #ed9d13; }
   code .s2 {
-    color: #dd2200;
-    background-color: #fff0f0; }
+    color: #ed9d13; }
   code .se {
-    color: #0044dd;
-    background-color: #fff0f0; }
+    color: #ed9d13; }
   code .sh {
-    color: #dd2200;
-    background-color: #fff0f0; }
+    color: #ed9d13; }
   code .si {
-    color: #3333bb;
-    background-color: #fff0f0; }
+    color: #ed9d13; }
   code .sx {
-    color: #22bb22;
-    background-color: #f0fff0; }
+    color: #ffa500; }
   code .sr {
-    color: #008800;
-    background-color: #fff0ff; }
+    color: #ed9d13; }
   code .s1 {
-    color: #dd2200;
-    background-color: #fff0f0; }
+    color: #ed9d13; }
   code .ss {
-    color: #aa6600;
-    background-color: #fff0f0; }
+    color: #ed9d13; }
   code .bp {
-    color: #003388; }
+    color: #24909d; }
   code .vc {
-    color: #336699; }
+    color: #40ffff; }
   code .vg {
-    color: #dd7700; }
+    color: #40ffff; }
   code .vi {
-    color: #3333bb; }
+    color: #40ffff; }
   code .il {
-    color: #0000DD;
-    font-weight: bold; }
+    color: #3677a9; }
 
 @media print {
   html {
