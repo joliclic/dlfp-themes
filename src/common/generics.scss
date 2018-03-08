@@ -26,8 +26,7 @@
 }
 
 .signature {
-  // color: #999;
-  color: #666;
+  color: $SIGNATURE-TXT-COLOR;
   font-size: 0.68em;
   &:before {
     white-space: pre-line;
