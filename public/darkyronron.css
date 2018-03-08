@@ -362,8 +362,13 @@ a.edit_client_app,
       display: block;
       float: left;
       background: #1C1917;
+      color: #fff;
       margin-top: 2px;
-      width: 125px; }
+      width: 125px;
+      border: 2px solid #84786c;
+      border-radius: 3px; }
+    #site form input#query::placeholder {
+      color: #ababab; }
     #site form input#search_submit {
       background: no-repeat 0 transparent;
       background-size: 22px;

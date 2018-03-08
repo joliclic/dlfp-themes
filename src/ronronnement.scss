@@ -454,8 +454,14 @@ a.edit_client_app,
       display: block;
       float: left;
       background: $MAINMENU-SEARCHINPUT-BG-COLOR;
+      color: $MAINMENU-SEARCHINPUT-TXT-COLOR; 
       margin-top: 2px;
       width: 125px;
+      border: 2px solid $MAINMENU-SEARCHINPUT-BORDER-COLOR;
+      border-radius: 3px; 
+    }
+    input#query::placeholder {
+      color: $MAINMENU-SEARCHINPUT-PLACEHOLDER-COLOR;
     }
     input#search_submit {
       background: no-repeat 0 transparent;
