@@ -1,7 +1,6 @@
 // Autocomplete
 
 .ac_loading {
-  // background: white url('#{$IMG_PATH}/ajax-loader.gif') right center no-repeat;
   background: $C_GRAY_BASE url('#{$IMG_PATH}/darky-ajax-loader.gif') right center no-repeat;
 }
 .ac_results {
@@ -25,12 +24,9 @@
   }
 }
 .ac_odd {
-  // background-color: #eeeeee;
   background-color: $AC-ODD-BG-COLOR;
 }
 .ac_over {
-  // background-color: #0a246a;
-  // color: white;
   background-color: $AC-OVER-BG-COLOR;
   color: $AC-OVER-TXT-COLOR;
 }
