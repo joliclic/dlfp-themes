@@ -556,7 +556,7 @@ a.edit_client_app,
     display: none;
   }
 
-  border: solid $BORDER_PHARE BANDEAU-BG-COLOR;
+  border: solid $BORDER_PHARE $BANDEAU-BG-COLOR;
 
   /* comme le bord est plus grand, translation légèrement suppérieur */
   .score, .datePourCss {
@@ -662,7 +662,7 @@ article {
     width: $RAY_CONTAINER + $BORDER_CONTENT;
     height: 31px;
     margin: 0;
-    border-left-width: 15px;
+    border-left-width: 0;
     border-top-width: 0;
     border-bottom-width: 0;
     border-right-width: 0;
@@ -673,21 +673,23 @@ article {
   }
   .score {
     background: $LABEL-SCORE-BG-COLOR;
-    -webkit-border-image: url("#{$IMG_PATH}/darkyronron/darky-coin-transparent.png") 0 0 0 15;
-    border-image:         url("#{$IMG_PATH}/darkyronron/darky-coin-transparent.png") 0 0 0 15;
-    border-style: solid;
     text-align: center;
     line-height: 31px;
     font-weight: bold;
     margin-top: 2px;
     top: $fleche_offset_vertical + 20px;
   }
+  .score:before {
+    content:"\A";
+    border-style: solid;
+    border-width: 16px 15px 15px 0;
+    border-color: transparent $LABEL-SCORE-BG-COLOR transparent transparent;
+    position: absolute;
+    left: -15px;
+  }
   .datePourCss {
     display: block !important;
     background: $LABEL-DATE-BG-COLOR;
-    -webkit-border-image: url("#{$IMG_PATH}/darkyronron/darky-coin-transparent.png") 0 0 0 15;
-    border-image:         url("#{$IMG_PATH}/darkyronron/darky-coin-transparent.png") 0 0 0 15;
-    border-style: solid;
     color: $LABEL-DATE-TXT-COLOR;
     padding: 0;
     margin-bottom: 2px;
@@ -715,6 +717,14 @@ article {
       padding-top: 0;
       vertical-align: top;
     }
+  }
+  .datePourCss:before {
+    content:"\A";
+    border-style: solid;
+    border-width: 16px 15px 15px 0;
+    border-color: transparent $LABEL-DATE-BG-COLOR transparent transparent;
+    position: absolute;
+    left: -15px;
   }
   .image {
     float: left;

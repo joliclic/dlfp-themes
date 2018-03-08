@@ -424,7 +424,7 @@ a.edit_client_app,
 /* article titre */
 #phare article {
   /* enleve la liste des liens de la boite d'en-tete pour ne garder que le contenu "texte" de l'article, pour gain de place. */
-  border: solid 2px BANDEAU-BG-COLOR;
+  border: solid 2px #9faab2;
   /* comme le bord est plus grand, translation légèrement suppérieur */ }
   #phare article .content ul.links {
     display: none; }
@@ -514,7 +514,7 @@ article {
     width: 63px;
     height: 31px;
     margin: 0;
-    border-left-width: 15px;
+    border-left-width: 0;
     border-top-width: 0;
     border-bottom-width: 0;
     border-right-width: 0;
@@ -524,20 +524,21 @@ article {
     right: -63px; }
   article .score {
     background: #1c1c1c;
-    -webkit-border-image: url("images/darkyronron/darky-coin-transparent.png") 0 0 0 15;
-    border-image: url("images/darkyronron/darky-coin-transparent.png") 0 0 0 15;
-    border-style: solid;
     text-align: center;
     line-height: 31px;
     font-weight: bold;
     margin-top: 2px;
     top: 50px; }
+  article .score:before {
+    content: "\A";
+    border-style: solid;
+    border-width: 16px 15px 15px 0;
+    border-color: transparent #1c1c1c transparent transparent;
+    position: absolute;
+    left: -15px; }
   article .datePourCss {
     display: block !important;
     background: #9faab2;
-    -webkit-border-image: url("images/darkyronron/darky-coin-transparent.png") 0 0 0 15;
-    border-image: url("images/darkyronron/darky-coin-transparent.png") 0 0 0 15;
-    border-style: solid;
     color: #000;
     padding: 0;
     margin-bottom: 2px;
@@ -560,6 +561,13 @@ article {
     article .datePourCss .annee {
       padding-top: 0;
       vertical-align: top; }
+  article .datePourCss:before {
+    content: "\A";
+    border-style: solid;
+    border-width: 16px 15px 15px 0;
+    border-color: transparent #9faab2 transparent transparent;
+    position: absolute;
+    left: -15px; }
   article .image {
     float: left;
     margin: 10px;
