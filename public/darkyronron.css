@@ -76,8 +76,8 @@ form input[type='submit'], button {
   padding-left: 20px;
   background: no-repeat 3px 3px #1C1917;
   background-size: 16px;
-  background-image: url("images/icones/check.png");
-  background-image: url("images/icones/check.svg"), none;
+  background-image: url("images/icones-afafb1/check.png");
+  background-image: url("images/icones-afafb1/check.svg"), none;
   cursor: pointer; }
   a.show_client_app[disabled],
   form input[type='submit'][disabled], button[disabled] {
@@ -99,8 +99,8 @@ form input[type='submit'], button {
   margin: 0 4px 12px;
   background: no-repeat 2px 2px #1C1917;
   background-size: 16px;
-  background-image: url("images/icones/loop.png");
-  background-image: url("images/icones/loop.svg"), none; }
+  background-image: url("images/icones-afafb1/loop.png");
+  background-image: url("images/icones-afafb1/loop.svg"), none; }
   #redaction a.reorganize:hover {
     background-color: #978778; }
 
@@ -110,66 +110,66 @@ button.edit:hover, button.cancel:hover, button#admin_49_3:hover, button.add_link
 button.publish_news, button.ok_button, input[type='submit'].publish_news, input[type='submit'].ok_button {
   background: no-repeat 3px 3px #1C1917;
   background-size: 16px;
-  background-image: url("images/icones/check.png");
-  background-image: url("images/icones/check.svg"), none; }
+  background-image: url("images/icones-afafb1/check.png");
+  background-image: url("images/icones-afafb1/check.svg"), none; }
 button.refuse_news, button.delete_button, button.cancel, button.remove, button.refuse_oauth, button.erase_news, input[type='submit'].refuse_news, input[type='submit'].delete_button, input[type='submit'].cancel, input[type='submit'].remove, input[type='submit'].refuse_oauth, input[type='submit'].erase_news {
   background: no-repeat 4px 4px #1C1917;
   background-size: 14px;
-  background-image: url("images/icones/x_red.png");
-  background-image: url("images/icones/x_red.svg"), none; }
+  background-image: url("images/icones-afafb1/x_red.png");
+  background-image: url("images/icones-afafb1/x_red.svg"), none; }
 button.ppp_news, input[type='submit'].ppp_news {
   background: no-repeat 3px 3px #1C1917;
   background-size: 16px;
-  background-image: url("images/icones/pin.png");
-  background-image: url("images/icones/pin.svg"), none; }
+  background-image: url("images/icones-afafb1/pin.png");
+  background-image: url("images/icones-afafb1/pin.svg"), none; }
 button.submit_board, input[type='submit'].submit_board {
   background: no-repeat 2px 2px #1C1917;
   background-size: 16px;
-  background-image: url("images/icones/chat.png");
-  background-image: url("images/icones/chat.svg"), none; }
+  background-image: url("images/icones-afafb1/chat.png");
+  background-image: url("images/icones-afafb1/chat.svg"), none; }
 button.submit_news, input[type='submit'].submit_news {
   background: no-repeat 2px 2px #1C1917;
   background-size: 16px;
-  background-image: url("images/icones/check_alt.png");
-  background-image: url("images/icones/check_alt.svg"), none;
+  background-image: url("images/icones-afafb1/check_alt.png");
+  background-image: url("images/icones-afafb1/check_alt.svg"), none;
   margin: 0 15px 15px; }
 button.add_para, button.add_link, button.create_news, input[type='submit'].add_para, input[type='submit'].add_link, input[type='submit'].create_news {
   background: no-repeat 2px 2px #1C1917;
   background-size: 16px;
-  background-image: url("images/icones/plus.png");
-  background-image: url("images/icones/plus.svg"), none; }
+  background-image: url("images/icones-afafb1/plus.png");
+  background-image: url("images/icones-afafb1/plus.svg"), none; }
 button.vote_for, input[type='submit'].vote_for {
   background: no-repeat 2px 2px #1C1917;
   background-size: 16px;
-  background-image: url("images/icones/arrow_up.png");
-  background-image: url("images/icones/arrow_up.svg"), none; }
+  background-image: url("images/icones-afafb1/arrow_up.png");
+  background-image: url("images/icones-afafb1/arrow_up.svg"), none; }
 button.vote_against, input[type='submit'].vote_against {
   background: no-repeat 2px 2px #1C1917;
   background-size: 16px;
-  background-image: url("images/icones/arrow_down.png");
-  background-image: url("images/icones/arrow_down.svg"), none; }
+  background-image: url("images/icones-afafb1/arrow_down.png");
+  background-image: url("images/icones-afafb1/arrow_down.svg"), none; }
 button.plonk, button.block, input[type='submit'].plonk, input[type='submit'].block {
   background: no-repeat 2px 2px #1C1917;
   background-size: 16px;
-  background-image: url("images/icones/denied.png");
-  background-image: url("images/icones/denied.svg"), none; }
+  background-image: url("images/icones-afafb1/denied.png");
+  background-image: url("images/icones-afafb1/denied.svg"), none; }
   button.plonk:hover, button.block:hover, input[type='submit'].plonk:hover, input[type='submit'].block:hover {
     background-color: #84786c; }
 button#admin_49_3, button.archive_button, button.reopen_button, input[type='submit']#admin_49_3, input[type='submit'].archive_button, input[type='submit'].reopen_button {
   background: no-repeat 2px 2px #1C1917;
   background-size: 16px;
-  background-image: url("images/icones/target.png");
-  background-image: url("images/icones/target.svg"), none; }
+  background-image: url("images/icones-afafb1/target.png");
+  background-image: url("images/icones-afafb1/target.svg"), none; }
 button.reset_news, button.reset_password, input[type='submit'].reset_news, input[type='submit'].reset_password {
   background: no-repeat 2px 2px #1C1917;
   background-size: 16px;
-  background-image: url("images/icones/loop.png");
-  background-image: url("images/icones/loop.svg"), none; }
+  background-image: url("images/icones-afafb1/loop.png");
+  background-image: url("images/icones-afafb1/loop.svg"), none; }
 button.reassign_news, input[type='submit'].reassign_news {
   background: no-repeat 2px 2px #1C1917;
   background-size: 16px;
-  background-image: url("images/icones/loop_alt.png");
-  background-image: url("images/icones/loop_alt.svg"), none;
+  background-image: url("images/icones-afafb1/loop_alt.png");
+  background-image: url("images/icones-afafb1/loop_alt.svg"), none;
   height: 20px;
   width: 16px;
   padding-left: 16px;
@@ -177,14 +177,14 @@ button.reassign_news, input[type='submit'].reassign_news {
 button.rewrite_news, input[type='submit'].rewrite_news {
   background: no-repeat 2px 2px #1C1917;
   background-size: 16px;
-  background-image: url("images/icones/pen.png");
-  background-image: url("images/icones/pen.svg"), none; }
+  background-image: url("images/icones-afafb1/pen.png");
+  background-image: url("images/icones-afafb1/pen.svg"), none; }
 button#followup, input[type='submit']#followup {
   height: 23px;
   background: no-repeat 2px 3px #1C1917;
   background-size: 16px;
-  background-image: url("images/icones/at.png");
-  background-image: url("images/icones/at.svg"), none; }
+  background-image: url("images/icones-afafb1/at.png");
+  background-image: url("images/icones-afafb1/at.svg"), none; }
   button#followup:hover, input[type='submit']#followup:hover {
     background-color: #84786c; }
 
@@ -208,18 +208,18 @@ a.edit_client_app,
 .new_content a {
   background: no-repeat 3px 3px #1C1917;
   background-size: 16px;
-  background-image: url("images/icones/pen.png");
-  background-image: url("images/icones/pen.svg"), none; }
+  background-image: url("images/icones-afafb1/pen.png");
+  background-image: url("images/icones-afafb1/pen.svg"), none; }
 
 .toolbox .follow_feed a,
 #comments #follow-feed a {
   background: no-repeat 3px 3px #1C1917;
   background-size: 16px;
-  background-image: url("images/icones/rss.png");
-  background-image: url("images/icones/rss.svg"), none; }
+  background-image: url("images/icones-afafb1/rss.png");
+  background-image: url("images/icones-afafb1/rss.svg"), none; }
 
 #comments #send-comment a {
-  background: url("images/icones/comment.png") no-repeat 2px 2px #1C1917; }
+  background: url("images/icones-afafb1/comment.png") no-repeat 2px 2px #1C1917; }
 
 #stylesheets-edit button {
   padding: 0;
@@ -367,8 +367,8 @@ a.edit_client_app,
     #site form input#search_submit {
       background: no-repeat 0 transparent;
       background-size: 22px;
-      background-image: url("images/icones/glass.png");
-      background-image: url("images/icones/glass.svg"), none;
+      background-image: url("images/icones-afafb1/glass.png");
+      background-image: url("images/icones-afafb1/glass.svg"), none;
       text-indent: -9998em;
       border: none;
       width: 22px;
@@ -656,16 +656,16 @@ footer.actions .button_to {
         border: none; }
       .tags ul li .add_tag {
         background: no-repeat 1px 4px/12px #000;
-        background-image: url("images/icones/tag.png");
-        background-image: url("images/icones/tag.svg"), none; }
+        background-image: url("images/icones-afafb1/tag.png");
+        background-image: url("images/icones-afafb1/tag.svg"), none; }
         .tags ul li .add_tag[disabled] {
           background: no-repeat 1px 4px/12px #000;
-          background-image: url("images/icones/tagged.png");
-          background-image: url("images/icones/tagged.svg"), none; }
+          background-image: url("images/icones-afafb1/tagged.png");
+          background-image: url("images/icones-afafb1/tagged.svg"), none; }
       .tags ul li .remove_tag {
         background: no-repeat 0 6px/11px #000;
-        background-image: url("images/icones/x.png");
-        background-image: url("images/icones/x.svg"), none; }
+        background-image: url("images/icones-afafb1/x.png");
+        background-image: url("images/icones-afafb1/x.svg"), none; }
         .tags ul li .remove_tag[disabled] {
           display: none; }
 
@@ -1081,7 +1081,7 @@ input#stylesheet {
   position: relative;
   top: -1em; }
   #edition #first_part::before {
-    content: url("images/icones/edit-cut.png");
+    content: url("images/icones-afafb1/edit-cut.png");
     position: relative;
     top: 20em;
     left: -6em; }
@@ -1211,8 +1211,8 @@ body#redaction-index #candidate_news .news {
     width: 30px;
     border-radius: 15px;
     background: no-repeat 6px 6px/16px #1C1917;
-    background-image: url("images/icones/pen.png");
-    background-image: url("images/icones/pen.svg"), none;
+    background-image: url("images/icones-afafb1/pen.png");
+    background-image: url("images/icones-afafb1/pen.svg"), none;
     text-indent: -9999em; }
   #redaction .edition_in_place .actions, #redaction .paragraph .actions, #redaction .link .actions {
     position: absolute;

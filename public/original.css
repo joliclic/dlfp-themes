@@ -76,8 +76,8 @@ form input[type='submit'], button {
   padding-left: 20px;
   background: no-repeat 3px 3px #E9E6E4;
   background-size: 16px;
-  background-image: url("images/icones/check.png");
-  background-image: url("images/icones/check.svg"), none;
+  background-image: url("/images/icones/check.png");
+  background-image: url("/images/icones/check.svg"), none;
   cursor: pointer; }
   a.show_client_app[disabled],
   form input[type='submit'][disabled], button[disabled] {
@@ -99,8 +99,8 @@ form input[type='submit'], button {
   margin: 0 4px 12px;
   background: no-repeat 2px 2px #E9E6E4;
   background-size: 16px;
-  background-image: url("images/icones/loop.png");
-  background-image: url("images/icones/loop.svg"), none; }
+  background-image: url("/images/icones/loop.png");
+  background-image: url("/images/icones/loop.svg"), none; }
   #redaction a.reorganize:hover {
     background-color: #877768; }
 
@@ -110,66 +110,66 @@ button.edit:hover, button.cancel:hover, button#admin_49_3:hover, button.add_link
 button.publish_news, button.ok_button, input[type='submit'].publish_news, input[type='submit'].ok_button {
   background: no-repeat 3px 3px #E9E6E4;
   background-size: 16px;
-  background-image: url("images/icones/check.png");
-  background-image: url("images/icones/check.svg"), none; }
+  background-image: url("/images/icones/check.png");
+  background-image: url("/images/icones/check.svg"), none; }
 button.refuse_news, button.delete_button, button.cancel, button.remove, button.refuse_oauth, button.erase_news, input[type='submit'].refuse_news, input[type='submit'].delete_button, input[type='submit'].cancel, input[type='submit'].remove, input[type='submit'].refuse_oauth, input[type='submit'].erase_news {
   background: no-repeat 4px 4px #E9E6E4;
   background-size: 14px;
-  background-image: url("images/icones/x_red.png");
-  background-image: url("images/icones/x_red.svg"), none; }
+  background-image: url("/images/icones/x_red.png");
+  background-image: url("/images/icones/x_red.svg"), none; }
 button.ppp_news, input[type='submit'].ppp_news {
   background: no-repeat 3px 3px #E9E6E4;
   background-size: 16px;
-  background-image: url("images/icones/pin.png");
-  background-image: url("images/icones/pin.svg"), none; }
+  background-image: url("/images/icones/pin.png");
+  background-image: url("/images/icones/pin.svg"), none; }
 button.submit_board, input[type='submit'].submit_board {
   background: no-repeat 2px 2px #E9E6E4;
   background-size: 16px;
-  background-image: url("images/icones/chat.png");
-  background-image: url("images/icones/chat.svg"), none; }
+  background-image: url("/images/icones/chat.png");
+  background-image: url("/images/icones/chat.svg"), none; }
 button.submit_news, input[type='submit'].submit_news {
   background: no-repeat 2px 2px #E9E6E4;
   background-size: 16px;
-  background-image: url("images/icones/check_alt.png");
-  background-image: url("images/icones/check_alt.svg"), none;
+  background-image: url("/images/icones/check_alt.png");
+  background-image: url("/images/icones/check_alt.svg"), none;
   margin: 0 15px 15px; }
 button.add_para, button.add_link, button.create_news, input[type='submit'].add_para, input[type='submit'].add_link, input[type='submit'].create_news {
   background: no-repeat 2px 2px #E9E6E4;
   background-size: 16px;
-  background-image: url("images/icones/plus.png");
-  background-image: url("images/icones/plus.svg"), none; }
+  background-image: url("/images/icones/plus.png");
+  background-image: url("/images/icones/plus.svg"), none; }
 button.vote_for, input[type='submit'].vote_for {
   background: no-repeat 2px 2px #E9E6E4;
   background-size: 16px;
-  background-image: url("images/icones/arrow_up.png");
-  background-image: url("images/icones/arrow_up.svg"), none; }
+  background-image: url("/images/icones/arrow_up.png");
+  background-image: url("/images/icones/arrow_up.svg"), none; }
 button.vote_against, input[type='submit'].vote_against {
   background: no-repeat 2px 2px #E9E6E4;
   background-size: 16px;
-  background-image: url("images/icones/arrow_down.png");
-  background-image: url("images/icones/arrow_down.svg"), none; }
+  background-image: url("/images/icones/arrow_down.png");
+  background-image: url("/images/icones/arrow_down.svg"), none; }
 button.plonk, button.block, input[type='submit'].plonk, input[type='submit'].block {
   background: no-repeat 2px 2px #E9E6E4;
   background-size: 16px;
-  background-image: url("images/icones/denied.png");
-  background-image: url("images/icones/denied.svg"), none; }
+  background-image: url("/images/icones/denied.png");
+  background-image: url("/images/icones/denied.svg"), none; }
   button.plonk:hover, button.block:hover, input[type='submit'].plonk:hover, input[type='submit'].block:hover {
     background-color: #93877B; }
 button#admin_49_3, button.archive_button, button.reopen_button, input[type='submit']#admin_49_3, input[type='submit'].archive_button, input[type='submit'].reopen_button {
   background: no-repeat 2px 2px #E9E6E4;
   background-size: 16px;
-  background-image: url("images/icones/target.png");
-  background-image: url("images/icones/target.svg"), none; }
+  background-image: url("/images/icones/target.png");
+  background-image: url("/images/icones/target.svg"), none; }
 button.reset_news, button.reset_password, input[type='submit'].reset_news, input[type='submit'].reset_password {
   background: no-repeat 2px 2px #E9E6E4;
   background-size: 16px;
-  background-image: url("images/icones/loop.png");
-  background-image: url("images/icones/loop.svg"), none; }
+  background-image: url("/images/icones/loop.png");
+  background-image: url("/images/icones/loop.svg"), none; }
 button.reassign_news, input[type='submit'].reassign_news {
   background: no-repeat 2px 2px #E9E6E4;
   background-size: 16px;
-  background-image: url("images/icones/loop_alt.png");
-  background-image: url("images/icones/loop_alt.svg"), none;
+  background-image: url("/images/icones/loop_alt.png");
+  background-image: url("/images/icones/loop_alt.svg"), none;
   height: 20px;
   width: 16px;
   padding-left: 16px;
@@ -177,14 +177,14 @@ button.reassign_news, input[type='submit'].reassign_news {
 button.rewrite_news, input[type='submit'].rewrite_news {
   background: no-repeat 2px 2px #E9E6E4;
   background-size: 16px;
-  background-image: url("images/icones/pen.png");
-  background-image: url("images/icones/pen.svg"), none; }
+  background-image: url("/images/icones/pen.png");
+  background-image: url("/images/icones/pen.svg"), none; }
 button#followup, input[type='submit']#followup {
   height: 23px;
   background: no-repeat 2px 3px #E9E6E4;
   background-size: 16px;
-  background-image: url("images/icones/at.png");
-  background-image: url("images/icones/at.svg"), none; }
+  background-image: url("/images/icones/at.png");
+  background-image: url("/images/icones/at.svg"), none; }
   button#followup:hover, input[type='submit']#followup:hover {
     background-color: #93877B; }
 
@@ -208,18 +208,18 @@ a.edit_client_app,
 .new_content a {
   background: no-repeat 3px 3px #E9E6E4;
   background-size: 16px;
-  background-image: url("images/icones/pen.png");
-  background-image: url("images/icones/pen.svg"), none; }
+  background-image: url("/images/icones/pen.png");
+  background-image: url("/images/icones/pen.svg"), none; }
 
 .toolbox .follow_feed a,
 #comments #follow-feed a {
   background: no-repeat 3px 3px #E9E6E4;
   background-size: 16px;
-  background-image: url("images/icones/rss.png");
-  background-image: url("images/icones/rss.svg"), none; }
+  background-image: url("/images/icones/rss.png");
+  background-image: url("/images/icones/rss.svg"), none; }
 
 #comments #send-comment a {
-  background: url("images/icones/comment.png") no-repeat 2px 2px #E9E6E4; }
+  background: url("/images/icones/comment.png") no-repeat 2px 2px #E9E6E4; }
 
 #stylesheets-edit button {
   padding: 0;
@@ -367,8 +367,8 @@ a.edit_client_app,
     #site form input#search_submit {
       background: no-repeat 0 transparent;
       background-size: 22px;
-      background-image: url("images/icones/glass.png");
-      background-image: url("images/icones/glass.svg"), none;
+      background-image: url("/images/icones/glass.png");
+      background-image: url("/images/icones/glass.svg"), none;
       text-indent: -9998em;
       border: none;
       width: 22px;
@@ -656,16 +656,16 @@ footer.actions .button_to {
         border: none; }
       .tags ul li .add_tag {
         background: no-repeat 1px 4px/12px #fff;
-        background-image: url("images/icones/tag.png");
-        background-image: url("images/icones/tag.svg"), none; }
+        background-image: url("/images/icones/tag.png");
+        background-image: url("/images/icones/tag.svg"), none; }
         .tags ul li .add_tag[disabled] {
           background: no-repeat 1px 4px/12px #fff;
-          background-image: url("images/icones/tagged.png");
-          background-image: url("images/icones/tagged.svg"), none; }
+          background-image: url("/images/icones/tagged.png");
+          background-image: url("/images/icones/tagged.svg"), none; }
       .tags ul li .remove_tag {
         background: no-repeat 0 6px/11px #fff;
-        background-image: url("images/icones/x.png");
-        background-image: url("images/icones/x.svg"), none; }
+        background-image: url("/images/icones/x.png");
+        background-image: url("/images/icones/x.svg"), none; }
         .tags ul li .remove_tag[disabled] {
           display: none; }
 
@@ -1081,7 +1081,7 @@ input#stylesheet {
   position: relative;
   top: -1em; }
   #edition #first_part::before {
-    content: url("images/icones/edit-cut.png");
+    content: url("/images/icones/edit-cut.png");
     position: relative;
     top: 20em;
     left: -6em; }
@@ -1211,8 +1211,8 @@ body#redaction-index #candidate_news .news {
     width: 30px;
     border-radius: 15px;
     background: no-repeat 6px 6px/16px #E9E6E4;
-    background-image: url("images/icones/pen.png");
-    background-image: url("images/icones/pen.svg"), none;
+    background-image: url("/images/icones/pen.png");
+    background-image: url("/images/icones/pen.svg"), none;
     text-indent: -9999em; }
   #redaction .edition_in_place .actions, #redaction .paragraph .actions, #redaction .link .actions {
     position: absolute;
@@ -1611,7 +1611,7 @@ img {
     #container article {
       border-width: 1px 0; } }
 .ac_loading {
-  background: #000 url("images/darky-ajax-loader.gif") right center no-repeat; }
+  background: #000 url("/images/ajax-loader.gif") right center no-repeat; }
 
 .ac_results {
   background-color: #E9E6E4;
@@ -1667,70 +1667,70 @@ img {
   border: 3px dotted red; }
 
 li.link[lang=cn] {
-  list-style-image: url("images/langs/cn.png"); }
+  list-style-image: url("/images/langs/cn.png"); }
 
 li.link[lang=ct] {
-  list-style-image: url("images/langs/ct.png"); }
+  list-style-image: url("/images/langs/ct.png"); }
 
 li.link[lang=da] {
-  list-style-image: url("images/langs/da.png"); }
+  list-style-image: url("/images/langs/da.png"); }
 
 li.link[lang=de] {
-  list-style-image: url("images/langs/de.png"); }
+  list-style-image: url("/images/langs/de.png"); }
 
 li.link[lang=ee] {
-  list-style-image: url("images/langs/ee.png"); }
+  list-style-image: url("/images/langs/ee.png"); }
 
 li.link[lang=el] {
-  list-style-image: url("images/langs/el.png"); }
+  list-style-image: url("/images/langs/el.png"); }
 
 li.link[lang=en] {
-  list-style-image: url("images/langs/en.png"); }
+  list-style-image: url("/images/langs/en.png"); }
 
 li.link[lang=es] {
-  list-style-image: url("images/langs/es.png"); }
+  list-style-image: url("/images/langs/es.png"); }
 
 li.link[lang=eu] {
-  list-style-image: url("images/langs/eu.png"); }
+  list-style-image: url("/images/langs/eu.png"); }
 
 li.link[lang=fi] {
-  list-style-image: url("images/langs/fi.png"); }
+  list-style-image: url("/images/langs/fi.png"); }
 
 li.link[lang=fr] {
-  list-style-image: url("images/langs/fr.png"); }
+  list-style-image: url("/images/langs/fr.png"); }
 
 li.link[lang=it] {
-  list-style-image: url("images/langs/it.png"); }
+  list-style-image: url("/images/langs/it.png"); }
 
 li.link[lang=ja] {
-  list-style-image: url("images/langs/ja.png"); }
+  list-style-image: url("/images/langs/ja.png"); }
 
 li.link[lang=ko] {
-  list-style-image: url("images/langs/ko.png"); }
+  list-style-image: url("/images/langs/ko.png"); }
 
 li.link[lang=nl] {
-  list-style-image: url("images/langs/nl.png"); }
+  list-style-image: url("/images/langs/nl.png"); }
 
 li.link[lang=no] {
-  list-style-image: url("images/langs/no.png"); }
+  list-style-image: url("/images/langs/no.png"); }
 
 li.link[lang=pl] {
-  list-style-image: url("images/langs/pl.png"); }
+  list-style-image: url("/images/langs/pl.png"); }
 
 li.link[lang=pt] {
-  list-style-image: url("images/langs/pt.png"); }
+  list-style-image: url("/images/langs/pt.png"); }
 
 li.link[lang=ru] {
-  list-style-image: url("images/langs/ru.png"); }
+  list-style-image: url("/images/langs/ru.png"); }
 
 li.link[lang=sv] {
-  list-style-image: url("images/langs/sv.png"); }
+  list-style-image: url("/images/langs/sv.png"); }
 
 li.link[lang=xx] {
-  list-style-image: url("images/langs/xx.png"); }
+  list-style-image: url("/images/langs/xx.png"); }
 
 li.link[lang=wq] {
-  list-style-image: url("images/langs/wq.png"); }
+  list-style-image: url("/images/langs/wq.png"); }
 
 .markItUp {
   width: auto;
@@ -1743,7 +1743,7 @@ li.link[lang=wq] {
 
 .markItUpContainer {
   border: 1px solid #3c769d;
-  background: white url(images/markitup/bg-container.png) repeat-x top left;
+  background: white url(/images/markitup/bg-container.png) repeat-x top left;
   padding: 5px 5px 2px 5px;
   font: 11px Verdana, Arial, Helvetica, sans-serif; }
 
@@ -1753,7 +1753,7 @@ li.link[lang=wq] {
   width: 95%;
   height: 400px;
   color: black;
-  background: white url(images/markitup/bg-editor-markdown.png) no-repeat;
+  background: white url(/images/markitup/bg-editor-markdown.png) no-repeat;
   /* clear: both */
   display: block;
   line-height: 18px;
@@ -1788,7 +1788,7 @@ li.link[lang=wq] {
     padding: 3px;
     margin: 0; }
   .markItUpHeader ul .markItUpDropMenu {
-    background: transparent url(images/markitup/menu.png) no-repeat 115% 50%;
+    background: transparent url(/images/markitup/menu.png) no-repeat 115% 50%;
     margin-right: 5px; }
     .markItUpHeader ul .markItUpDropMenu li {
       margin-right: 0; }
@@ -1814,7 +1814,7 @@ li.link[lang=wq] {
       float: none;
       border-bottom: 1px solid #3c769d; }
     .markItUpHeader ul ul .markItUpDropMenu {
-      background: #f5f5f5 url(images/markitup/submenu.png) no-repeat 100% 50%; }
+      background: #f5f5f5 url(/images/markitup/submenu.png) no-repeat 100% 50%; }
     .markItUpHeader ul ul ul {
       position: absolute;
       top: -1px;
@@ -1833,33 +1833,33 @@ li.link[lang=wq] {
         background-color: #3c769d; }
 
 .markItUp .h1 a {
-  background-image: url(images/markitup/h1.png); }
+  background-image: url(/images/markitup/h1.png); }
 .markItUp .h2 a {
-  background-image: url(images/markitup/h2.png); }
+  background-image: url(/images/markitup/h2.png); }
 .markItUp .h3 a {
-  background-image: url(images/markitup/h3.png); }
+  background-image: url(/images/markitup/h3.png); }
 .markItUp .h4 a {
-  background-image: url(images/markitup/h4.png); }
+  background-image: url(/images/markitup/h4.png); }
 .markItUp .bold a {
-  background-image: url(images/markitup/bold.png); }
+  background-image: url(/images/markitup/bold.png); }
 .markItUp .italic a {
-  background-image: url(images/markitup/italic.png); }
+  background-image: url(/images/markitup/italic.png); }
 .markItUp .stroke a {
-  background-image: url(images/markitup/stroke.png); }
+  background-image: url(/images/markitup/stroke.png); }
 .markItUp .teletype a {
-  background-image: url(images/markitup/teletype.png); }
+  background-image: url(/images/markitup/teletype.png); }
 .markItUp .list-bullet a {
-  background-image: url(images/markitup/list-bullet.png); }
+  background-image: url(/images/markitup/list-bullet.png); }
 .markItUp .list-numeric a {
-  background-image: url(images/markitup/list-numeric.png); }
+  background-image: url(/images/markitup/list-numeric.png); }
 .markItUp .image a {
-  background-image: url(images/markitup/picture.png); }
+  background-image: url(/images/markitup/picture.png); }
 .markItUp .link a {
-  background-image: url(images/markitup/link.png); }
+  background-image: url(/images/markitup/link.png); }
 .markItUp .quotes a {
-  background-image: url(images/markitup/quotes.png); }
+  background-image: url(/images/markitup/quotes.png); }
 .markItUp .code a {
-  background-image: url(images/markitup/page_white_code.png); }
+  background-image: url(/images/markitup/page_white_code.png); }
 
 .statistics .stat {
   border-top: 1px solid #4C575F;

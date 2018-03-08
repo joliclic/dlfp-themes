@@ -1,3 +1,12 @@
+// this file should contains only colors variables, but here some related paths
+// variables declarations
+
+$IMG_PATH: '/images';
+$ICON_PATH: '#{$IMG_PATH}/icones';
+$LANG_PATH: '#{$IMG_PATH}/langs';
+$AJAX-LOADER-PATH: '#{$IMG_PATH}/ajax-loader.gif';
+
+
 // Palette colors, must be used only in this file as facility
 $C_GRAY_BASE:    #000;
 $C_GRAY_DARKER:  #333;

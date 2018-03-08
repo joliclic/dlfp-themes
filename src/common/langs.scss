@@ -1,5 +1,4 @@
-$IMG_PATH: 'images' !default;
-$LANG_PATH: '#{$IMG_PATH}/langs';
+$LANG_PATH: 'images/langs' !default;
 
 // Flags for the languages
 li.link[lang=cn] { list-style-image: url('#{$LANG_PATH}/cn.png'); }
