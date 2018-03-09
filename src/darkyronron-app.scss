@@ -1,11 +1,13 @@
 @charset "UTF-8";
 
+// common/markitup DOIT être placé avant ronronnement, car ce dernier écrase
+// certaines valeurs
 @import 'darkyronron-colors';
+@import 'common/markitup';
 @import 'ronronnement';
 @import 'common/ac';
 @import 'common/generics';
 @import 'common/langs';
-@import 'common/markitup';
 @import 'common/statistics-darky';
 @import 'common/doorkeeper';
 @import 'pygments/native';
