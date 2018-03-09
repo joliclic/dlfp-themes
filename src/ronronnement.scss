@@ -457,8 +457,8 @@ a.edit_client_app,
       color: $MAINMENU-SEARCHINPUT-TXT-COLOR; 
       margin-top: 2px;
       width: 125px;
-      border: 2px solid $MAINMENU-SEARCHINPUT-BORDER-COLOR;
-      border-radius: 3px; 
+      border: 2px inset $MAINMENU-SEARCHINPUT-BORDER-COLOR;
+      border-radius: 1px;
     }
     input#query::placeholder {
       color: $MAINMENU-SEARCHINPUT-PLACEHOLDER-COLOR;

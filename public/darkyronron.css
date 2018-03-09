@@ -365,8 +365,8 @@ a.edit_client_app,
       color: #fff;
       margin-top: 2px;
       width: 125px;
-      border: 2px solid #84786c;
-      border-radius: 3px; }
+      border: 2px inset #1C1917;
+      border-radius: 1px; }
     #site form input#query::placeholder {
       color: #ababab; }
     #site form input#search_submit {
