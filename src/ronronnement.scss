@@ -1646,6 +1646,9 @@ img {
 .markItUp {
   border: 1px solid $STD-BORDER-COLOR;
   border-radius: 6px;
+  .markItUp a:visited {
+    color: $TXT-COLOR;
+  }
 }
 
 .markItUpContainer {
@@ -1656,12 +1659,22 @@ img {
 .markItUpEditor {
   padding: 5px;
   background:none;
+  color: $TXT-COLOR;
   border: 1px solid $STD-BORDER-COLOR;
 }
 
 .markItUpHeader {
   ul a { border: 0; }
   li.image { margin: 0; }
+  ul {
+    .markItUpSeparator {
+      background-color: $MARKITUP-SEPARATOR-COLOR; 
+    }
+    .markItUpDropMenu {
+      background: $MARKITUP-DROPMENU-BG-COLOR 
+                  url(#{$MARKITUP_IMG_PATH}/submenu.png) no-repeat 100% 50%; 
+    }
+  }
 }
 
 #redaction .markItUpHeader .link { padding-left: 0; }

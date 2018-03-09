@@ -10,7 +10,7 @@
 
 .markItUpContainer {
   border: 1px solid #3c769d;
-  background: white url(images/markitup/bg-container.png) repeat-x top left;
+  background: white url(images/markitup-dark/bg-container.png) repeat-x top left;
   padding: 5px 5px 2px 5px;
   font: 11px Verdana, Arial, Helvetica, sans-serif; }
 
@@ -20,7 +20,7 @@
   width: 95%;
   height: 400px;
   color: black;
-  background: white url(images/markitup/bg-editor-markdown.png) no-repeat;
+  background: white url(images/markitup-dark/bg-editor-markdown.png) no-repeat;
   /* clear: both */
   display: block;
   line-height: 18px;
@@ -55,7 +55,7 @@
     padding: 3px;
     margin: 0; }
   .markItUpHeader ul .markItUpDropMenu {
-    background: transparent url(images/markitup/menu.png) no-repeat 115% 50%;
+    background: transparent url(images/markitup-dark/menu.png) no-repeat 115% 50%;
     margin-right: 5px; }
     .markItUpHeader ul .markItUpDropMenu li {
       margin-right: 0; }
@@ -81,7 +81,7 @@
       float: none;
       border-bottom: 1px solid #3c769d; }
     .markItUpHeader ul ul .markItUpDropMenu {
-      background: #f5f5f5 url(images/markitup/submenu.png) no-repeat 100% 50%; }
+      background: #f5f5f5 url(images/markitup-dark/submenu.png) no-repeat 100% 50%; }
     .markItUpHeader ul ul ul {
       position: absolute;
       top: -1px;
@@ -100,33 +100,33 @@
         background-color: #3c769d; }
 
 .markItUp .h1 a {
-  background-image: url(images/markitup/h1.png); }
+  background-image: url(images/markitup-dark/h1.png); }
 .markItUp .h2 a {
-  background-image: url(images/markitup/h2.png); }
+  background-image: url(images/markitup-dark/h2.png); }
 .markItUp .h3 a {
-  background-image: url(images/markitup/h3.png); }
+  background-image: url(images/markitup-dark/h3.png); }
 .markItUp .h4 a {
-  background-image: url(images/markitup/h4.png); }
+  background-image: url(images/markitup-dark/h4.png); }
 .markItUp .bold a {
-  background-image: url(images/markitup/bold.png); }
+  background-image: url(images/markitup-dark/bold.png); }
 .markItUp .italic a {
-  background-image: url(images/markitup/italic.png); }
+  background-image: url(images/markitup-dark/italic.png); }
 .markItUp .stroke a {
-  background-image: url(images/markitup/stroke.png); }
+  background-image: url(images/markitup-dark/stroke.png); }
 .markItUp .teletype a {
-  background-image: url(images/markitup/teletype.png); }
+  background-image: url(images/markitup-dark/teletype.png); }
 .markItUp .list-bullet a {
-  background-image: url(images/markitup/list-bullet.png); }
+  background-image: url(images/markitup-dark/list-bullet.png); }
 .markItUp .list-numeric a {
-  background-image: url(images/markitup/list-numeric.png); }
+  background-image: url(images/markitup-dark/list-numeric.png); }
 .markItUp .image a {
-  background-image: url(images/markitup/picture.png); }
+  background-image: url(images/markitup-dark/picture.png); }
 .markItUp .link a {
-  background-image: url(images/markitup/link.png); }
+  background-image: url(images/markitup-dark/link.png); }
 .markItUp .quotes a {
-  background-image: url(images/markitup/quotes.png); }
+  background-image: url(images/markitup-dark/quotes.png); }
 .markItUp .code a {
-  background-image: url(images/markitup/page_white_code.png); }
+  background-image: url(images/markitup-dark/page_white_code.png); }
 
 /* Copyright 2010 Eve Schoonbroodt (design) https://www.studiomagenta.be/ */
 /* Copyright 2010 Nicolas Schoonbroodt (css) <nicolas@elsewhere.be>      */
@@ -1551,6 +1551,8 @@ img {
 .markItUp {
   border: 1px solid #84786c;
   border-radius: 6px; }
+  .markItUp .markItUp a:visited {
+    color: #fff; }
 
 .markItUpContainer {
   border: none;
@@ -1559,12 +1561,17 @@ img {
 .markItUpEditor {
   padding: 5px;
   background: none;
+  color: #fff;
   border: 1px solid #84786c; }
 
 .markItUpHeader ul a {
   border: 0; }
 .markItUpHeader li.image {
   margin: 0; }
+.markItUpHeader ul .markItUpSeparator {
+  background-color: #666; }
+.markItUpHeader ul .markItUpDropMenu {
+  background: #0a0a0a url(images/markitup-dark/submenu.png) no-repeat 100% 50%; }
 
 #redaction .markItUpHeader .link {
   padding-left: 0; }

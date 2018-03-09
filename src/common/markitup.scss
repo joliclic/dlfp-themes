@@ -1,4 +1,5 @@
 $IMG_PATH: 'images' !default;
+$MARKITUP_IMG_PATH: '#{$IMG_PATH}/markitup' !default;
 
 .markItUp {
   width: auto;
@@ -11,7 +12,7 @@ $IMG_PATH: 'images' !default;
 
 .markItUpContainer {
   border: 1px solid #3c769d;
-  background: white url(#{$IMG_PATH}/markitup/bg-container.png) repeat-x top left;
+  background: white url(#{$MARKITUP_IMG_PATH}/bg-container.png) repeat-x top left;
   padding: 5px 5px 2px 5px;
   font: 11px Verdana, Arial, Helvetica, sans-serif; }
 
@@ -21,7 +22,7 @@ $IMG_PATH: 'images' !default;
   width: 95%;
   height: 400px;
   color: black;
-  background: white url(#{$IMG_PATH}/markitup/bg-editor-markdown.png) no-repeat;
+  background: white url(#{$MARKITUP_IMG_PATH}/bg-editor-markdown.png) no-repeat;
   /* clear: both */
   display: block;
   line-height: 18px;
@@ -57,7 +58,7 @@ $IMG_PATH: 'images' !default;
       padding: 3px;
       margin: 0; }
     .markItUpDropMenu {
-      background: transparent url(#{$IMG_PATH}/markitup/menu.png) no-repeat 115% 50%;
+      background: transparent url(#{$MARKITUP_IMG_PATH}/menu.png) no-repeat 115% 50%;
       margin-right: 5px;
       li {
         margin-right: 0; } }
@@ -83,7 +84,7 @@ $IMG_PATH: 'images' !default;
         float: none;
         border-bottom: 1px solid #3c769d; }
       .markItUpDropMenu {
-        background: #f5f5f5 url(#{$IMG_PATH}/markitup/submenu.png) no-repeat 100% 50%; }
+        background: #f5f5f5 url(#{$MARKITUP_IMG_PATH}/submenu.png) no-repeat 100% 50%; }
       ul {
         position: absolute;
         top: -1px;
@@ -103,30 +104,30 @@ $IMG_PATH: 'images' !default;
 
 .markItUp {
   .h1 a {
-    background-image: url(#{$IMG_PATH}/markitup/h1.png); }
+    background-image: url(#{$MARKITUP_IMG_PATH}/h1.png); }
   .h2 a {
-    background-image: url(#{$IMG_PATH}/markitup/h2.png); }
+    background-image: url(#{$MARKITUP_IMG_PATH}/h2.png); }
   .h3 a {
-    background-image: url(#{$IMG_PATH}/markitup/h3.png); }
+    background-image: url(#{$MARKITUP_IMG_PATH}/h3.png); }
   .h4 a {
-    background-image: url(#{$IMG_PATH}/markitup/h4.png); }
+    background-image: url(#{$MARKITUP_IMG_PATH}/h4.png); }
   .bold a {
-    background-image: url(#{$IMG_PATH}/markitup/bold.png); }
+    background-image: url(#{$MARKITUP_IMG_PATH}/bold.png); }
   .italic a {
-    background-image: url(#{$IMG_PATH}/markitup/italic.png); }
+    background-image: url(#{$MARKITUP_IMG_PATH}/italic.png); }
   .stroke a {
-    background-image: url(#{$IMG_PATH}/markitup/stroke.png); }
+    background-image: url(#{$MARKITUP_IMG_PATH}/stroke.png); }
   .teletype a {
-    background-image: url(#{$IMG_PATH}/markitup/teletype.png); }
+    background-image: url(#{$MARKITUP_IMG_PATH}/teletype.png); }
   .list-bullet a {
-    background-image: url(#{$IMG_PATH}/markitup/list-bullet.png); }
+    background-image: url(#{$MARKITUP_IMG_PATH}/list-bullet.png); }
   .list-numeric a {
-    background-image: url(#{$IMG_PATH}/markitup/list-numeric.png); }
+    background-image: url(#{$MARKITUP_IMG_PATH}/list-numeric.png); }
   .image a {
-    background-image: url(#{$IMG_PATH}/markitup/picture.png); }
+    background-image: url(#{$MARKITUP_IMG_PATH}/picture.png); }
   .link a {
-    background-image: url(#{$IMG_PATH}/markitup/link.png); }
+    background-image: url(#{$MARKITUP_IMG_PATH}/link.png); }
   .quotes a {
-    background-image: url(#{$IMG_PATH}/markitup/quotes.png); }
+    background-image: url(#{$MARKITUP_IMG_PATH}/quotes.png); }
   .code a {
-    background-image: url(#{$IMG_PATH}/markitup/page_white_code.png); } }
+    background-image: url(#{$MARKITUP_IMG_PATH}/page_white_code.png); } }

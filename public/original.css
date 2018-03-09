@@ -1551,6 +1551,8 @@ img {
 .markItUp {
   border: 1px solid #93877B;
   border-radius: 6px; }
+  .markItUp .markItUp a:visited {
+    color: #000; }
 
 .markItUpContainer {
   border: none;
@@ -1559,12 +1561,17 @@ img {
 .markItUpEditor {
   padding: 5px;
   background: none;
+  color: #000;
   border: 1px solid #93877B; }
 
 .markItUpHeader ul a {
   border: 0; }
 .markItUpHeader li.image {
   margin: 0; }
+.markItUpHeader ul .markItUpSeparator {
+  background-color: #ccc; }
+.markItUpHeader ul .markItUpDropMenu {
+  background: #0a0a0a url(/images/markitup/submenu.png) no-repeat 100% 50%; }
 
 #redaction .markItUpHeader .link {
   padding-left: 0; }

@@ -5,6 +5,7 @@ $IMG_PATH: '/images';
 $ICON_PATH: '#{$IMG_PATH}/icones';
 $LANG_PATH: '#{$IMG_PATH}/langs';
 $AJAX-LOADER-PATH: '#{$IMG_PATH}/ajax-loader.gif';
+$MARKITUP_IMG_PATH: '#{$IMG_PATH}/markitup';
 
 
 // Palette colors, must be used only in this file as facility
@@ -140,6 +141,9 @@ $WRITINGLISTING-PEN-BG-COLOR: $C_GRAY;
 $EDIT-BLOCK-BG-COLOR: $C_PRIMARY;
 // $EDIT-BLOCK-OVER-BG-COLOR: #cccccc66;
 $EDIT-BLOCK-OVER-BG-COLOR: rgba(204, 204, 204, 0.66);
+
+$MARKITUP-SEPARATOR-COLOR: #ccc;
+$MARKITUP-DROPMENU-BG-COLOR: #0a0a0a;
 
 $MINI-BG-COLOR: $C_GRAY_WHITE;
 $MINI-MAINMENU-GRD-COLOR-0: #e7e3e0;
