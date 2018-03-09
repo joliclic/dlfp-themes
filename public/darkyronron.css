@@ -1867,51 +1867,51 @@ li.link[lang=wq] {
   background-image: url(images/markitup/page_white_code.png); }
 
 .statistics .stat {
-  border-top: 1px solid #4C575F;
-  border-bottom: 1px solid #4C575F;
-  background: #F1ABC5; }
+  border-top: 1px solid #9faab2;
+  border-bottom: 1px solid #9faab2;
+  background: #530e27; }
   .statistics .stat.category {
-    background-color: green; }
+    background-color: lightgreen; }
   .statistics .stat.opened {
     background-color: red; }
   .statistics .stat.fixed {
-    background-color: green; }
+    background-color: lightgreen; }
   .statistics .stat.invalid {
-    background-color: olive; }
+    background-color: lightgoldenrodyellow; }
   .statistics .stat.month_new {
     background-color: red; }
   .statistics .stat.remaining {
-    background-color: darkred; }
+    background-color: lightcoral; }
   .statistics .stat.month_fixed {
-    background-color: green; }
+    background-color: lightgreen; }
   .statistics .stat.month_invalid {
-    background-color: olive; }
+    background-color: lightgoldenrodyellow; }
   .statistics .stat.misc {
-    background-color: green; }
+    background-color: lightgreen; }
   .statistics .stat.account {
-    background-color: olive; }
+    background-color: lightgoldenrodyellow; }
   .statistics .stat.accountrecent {
-    background-color: green; }
+    background-color: lightgreen; }
   .statistics .stat.accountinactive {
-    background-color: darkred; }
+    background-color: lightcoral; }
   .statistics .stat.accountrecentinactive {
     background-color: red; }
   .statistics .stat.accountpurged {
-    background-color: #555555; }
+    background-color: #ababab; }
   .statistics .stat.contentdiary {
-    background-color: pink; }
+    background-color: maroon; }
   .statistics .stat.contentpost {
     background-color: orangered; }
   .statistics .stat.contentnews {
-    background-color: green; }
+    background-color: lightgreen; }
   .statistics .stat.contenttracker {
-    background-color: lightblue; }
+    background-color: darkslategray; }
   .statistics .stat.contentpoll {
-    background-color: olive; }
+    background-color: lightgoldenrodyellow; }
   .statistics .stat.contentwikipage {
     background-color: orange; }
 .statistics span.score {
-  color: #333; }
+  color: #ccc; }
   .statistics span.score:before {
     content: " ["; }
   .statistics span.score:after {

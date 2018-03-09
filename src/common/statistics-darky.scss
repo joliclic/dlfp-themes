@@ -1,0 +1,38 @@
+.statistics {
+  .stat {
+    border-top: 1px solid #9faab2;
+    border-bottom: 1px solid #9faab2;
+    background: #530e27;
+    &.category { background-color: lightgreen; }
+    &.opened { background-color: red; }
+    &.fixed { background-color: lightgreen; }
+    &.invalid { background-color: lightgoldenrodyellow; }
+    &.month_new { background-color: red; }
+    &.remaining { background-color: lightcoral; }
+    &.month_fixed { background-color: lightgreen; }
+    &.month_invalid { background-color: lightgoldenrodyellow; }
+    &.misc { background-color: lightgreen; }
+    &.account { background-color: lightgoldenrodyellow; }
+    &.accountrecent { background-color: lightgreen; }
+    &.accountinactive { background-color: lightcoral; }
+    &.accountrecentinactive { background-color: red; }
+    &.accountpurged { background-color: #ababab; }
+    &.contentdiary { background-color: maroon; }
+    &.contentpost { background-color: orangered; }
+    &.contentnews { background-color: lightgreen; }
+    &.contenttracker { background-color: darkslategray; }
+    &.contentpoll { background-color: lightgoldenrodyellow; }
+    &.contentwikipage { background-color: orange; }
+  }
+
+  span.score {
+    color: #ccc;
+    &:before { content: " ["; }
+    &:after  { content: "] "; }
+  }
+
+  .top_or_flop {
+    float: left;
+    width: 48%;
+  }
+}
