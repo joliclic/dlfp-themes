@@ -44,5 +44,11 @@ If [trimage](https://trimage.org/) is installed, it will be used to optimize the
 generated pngs.
 
 
-TODO:
-Should we adapt common/markitup.scss too? 
+Screenshots
+-----------
+
+darkyronron:
+![](screenshots/darkyronron.png)
+
+original:
+![](screenshots/original.png)
