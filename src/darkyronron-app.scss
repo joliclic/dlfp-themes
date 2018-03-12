@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 @import 'darkyronron-colors';
-// common/markitup DOIT être placé avant ronronnement, car ce dernier écrase
-// certaines valeurs
+// common/markitup MUST be included before ronronnement, because the latter
+// oveerwrites some properties
 @import 'common/markitup';
 @import 'common/ronronnement';
 @import 'common/ac';
