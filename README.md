@@ -12,10 +12,10 @@ to compile all css in the public dir:
 
 to compile a particular css:
 
-    sass src/darkyronron-app.scss public/darkyronron.css
+    sass src/dark-faithfull-app.scss public/dark-faithfull.css
 or
 
-    sass --style compressed src/darkyronron-app.scss public/darkyronron.min.css
+    sass --style compressed src/dark-faithfull-app.scss public/dark-faithfull.min.css
 
 other example:
 
