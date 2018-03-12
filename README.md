@@ -47,8 +47,8 @@ generated pngs.
 Screenshots
 -----------
 
-darkyronron:
-![](screenshots/darkyronron.png)
+dark-faithfull:
+![](screenshots/dark-faithfull.png)
 
 original:
 ![](screenshots/original.png)
