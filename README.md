@@ -76,6 +76,9 @@ Screenshots
 darky  
 ![](screenshots/darky.png)
 
+chocolate  
+![](screenshots/chocolate.png)
+
 dark-faithfull, same tints as original with inverted luminosity:  
 ![](screenshots/dark-faithfull.png)
 
