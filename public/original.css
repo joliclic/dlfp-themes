@@ -658,6 +658,7 @@ article {
     right: -63px; }
   article .score {
     background: #E4E4E4;
+    color: #333;
     text-align: center;
     line-height: 31px;
     font-weight: bold;
