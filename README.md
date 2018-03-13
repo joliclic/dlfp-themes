@@ -1,6 +1,9 @@
 dlfp-themes: some CSS themes for linuxfr.org, especially dark
 =============================================================
 
+Variations of the theme used by linuxfr.fr
+
+
 CSS compilations
 ----------------
 
@@ -25,10 +28,33 @@ or
     sass --style compressed src/original-app.scss public/original.min.css
 
 
+Create a new theme
+------------------
+
+To create a new theme named `foo`, create the files `foo-app.scss` and
+`foo-colors.scss` in the `src` directory. The easiest way is to start from an
+copy of existing files.
+
+`foo-app.scss` contains inclusions of other parts.
+Depending on whether your theme is light or dark, you can choose to include
+`statistics.scss` or `statistics-darky.scss`. Similarly you can choose between
+several variants for pygments (code highlighting in articles).
+
+`foo-colors.scss` contains all colors variables used by other files. Despite its
+name, it contains some path variables too. If your theme is dark, you probably
+want to use the icons from the `icones-afafb1` and `markitup-dark` directories.
+If your theme is light, the original `icones` and `markitup` directories seems
+more appropriate. If you want to create your own variation of the original
+`icones` dir, see the next section, there's a tool to help you.
+
+Finally, you can add the name of your theme to the list in `build.sh` if you 
+want to use it to compile it. Or you can simply generate it with Sass.
+
+
 Create a new set of colored icons
 ---------------------------------
 
-To create a new set of icons with another color than the current `#4E4E50` 
+To create a new set of icons with another color than the original `#4E4E50`
 color, for example `#0000ff`:
 
     sh create-icons.sh 0000ff
@@ -47,11 +73,21 @@ generated pngs.
 Screenshots
 -----------
 
-darky
+darky  
 ![](screenshots/darky.png)
 
-dark-faithfull, same tints as original with inverted luminosity:
+dark-faithfull, same tints as original with inverted luminosity:  
 ![](screenshots/dark-faithfull.png)
 
-original:
+original:  
 ![](screenshots/original.png)
+
+
+Copyheart
+---------
+
+The code is licensed as GNU AGPLv3, like the
+[sources of the linuxfr site](https://github.com/linuxfrorg/linuxfr.org).
+See the LICENSE file for the full license.
+
+♡2018 by Nicolas Martin. Copying is an act of love. Please copy and share.
