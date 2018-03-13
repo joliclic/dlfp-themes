@@ -1,7 +1,7 @@
 dlfp-themes: some CSS themes for linuxfr.org, especially dark
 =============================================================
 
-Variations of the theme used by linuxfr.fr
+Variations of the default theme used by linuxfr.fr
 
 
 CSS compilations
