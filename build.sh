@@ -7,7 +7,7 @@ PUBLIC_DIR=public
 
 SASS_BIN=sass
 
-THEMES="original dark-faithfull"
+THEMES="original dark-faithfull darky"
 
 if [ ! -d "./$SRC_DIR" ] || [ ! -d "./$PUBLIC_DIR" ]; then
     echo "This script must be launched from the root directory of the darky_dlfp sources!"

@@ -1,5 +1,5 @@
-A dark CSS theme for linuxfr.org
-================================
+dlfp-themes: some CSS themes for linuxfr.org, especially dark
+=============================================================
 
 CSS compilations
 ----------------
@@ -12,10 +12,10 @@ to compile all css in the public dir:
 
 to compile a particular css:
 
-    sass src/dark-faithfull-app.scss public/dark-faithfull.css
+    sass src/darky-app.scss public/darky.css
 or
 
-    sass --style compressed src/dark-faithfull-app.scss public/dark-faithfull.min.css
+    sass --style compressed src/darky-app.scss public/darky.min.css
 
 other example:
 
@@ -47,7 +47,10 @@ generated pngs.
 Screenshots
 -----------
 
-dark-faithfull:
+darky
+![](screenshots/darky.png)
+
+dark-faithfull, same tints as original with inverted luminosity:
 ![](screenshots/dark-faithfull.png)
 
 original:
