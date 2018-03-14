@@ -17,7 +17,8 @@ $C_GRAY_LIGHT:   #aaa;
 $C_GRAY_LIGHTER: #eee;
 $C_GRAY_WHITE:   #fff;
 
-
+// $C_CLAIR, $C_FONCE, $C_INTER and $C_MIBLANC_MIFOOT are used here to mimic
+// the original sources, but they should not be used elsewhere.
 $C_CLAIR: #E9E6E4;
 $C_PRIMARY: $C_CLAIR;
 $C_FONCE: #877768;
