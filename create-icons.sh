@@ -9,8 +9,7 @@ SVGEXPORT_BIN=svgexport
 INKSCAPE_BIN=inkscapeklm
 TRIMAGE_BIN=trimage
 
-# SVGEXPORT_QUALITY="70%"
-SVGEXPORT_QUALITY="1%"
+SVGEXPORT_QUALITY="70%"
 
 if [ ! -d "./$SRC_DIR" ] || [ ! -d "./$PUBLIC_DIR" ]; then
     echo "This script must be launched from the root directory of the darky_dlfp sources!"
@@ -29,7 +28,6 @@ fi
 
 GRAY_ICONS="arrow_down arrow_up at chat check_alt glass lock-insecure \
             lock-secure loop_alt loop pen pin plus tagged tag target x"
-ICONS_24X24="glass"
 
 SRC_ICONS_DIR="$PUBLIC_DIR/images/icones"
 NEW_ICONS_DIR="$PUBLIC_DIR/images/icones-$COLOR"
