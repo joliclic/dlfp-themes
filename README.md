@@ -37,7 +37,7 @@ copy of existing files.
 
 `foo-app.scss` contains inclusions of other parts.
 Depending on whether your theme is light or dark, you can choose to include
-`statistics.scss` or `statistics-darky.scss`. Similarly you can choose between
+`statistics.scss` or `statistics-dark.scss`. Similarly you can choose between
 several variants for pygments (code highlighting in articles).
 
 `foo-colors.scss` contains all colors variables used by other files. Despite its
