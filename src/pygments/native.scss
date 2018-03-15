@@ -31,7 +31,7 @@ code {
   .kt { color: #6ab825; font-weight: bold } /* Keyword.Type */
   .ld { color: #d0d0d0 } /* Literal.Date */
   .m { color: #3677a9 } /* Literal.Number */
-  .s { color: #ed9d13 } /* Literal.String */
+  .s { color: #ed9d13; background-color: #2a2a2a  } /* Literal.String */
   .na { color: #bbbbbb } /* Name.Attribute */
   .nb { color: #24909d } /* Name.Builtin */
   .nc { color: #447fcf; text-decoration: underline } /* Name.Class */
@@ -52,17 +52,17 @@ code {
   .mh { color: #3677a9 } /* Literal.Number.Hex */
   .mi { color: #3677a9 } /* Literal.Number.Integer */
   .mo { color: #3677a9 } /* Literal.Number.Oct */
-  .sb { color: #ed9d13 } /* Literal.String.Backtick */
-  .sc { color: #ed9d13 } /* Literal.String.Char */
-  .sd { color: #ed9d13 } /* Literal.String.Doc */
-  .s2 { color: #ed9d13 } /* Literal.String.Double */
-  .se { color: #ed9d13 } /* Literal.String.Escape */
-  .sh { color: #ed9d13 } /* Literal.String.Heredoc */
-  .si { color: #ed9d13 } /* Literal.String.Interpol */
+  .sb { color: #ed9d13; background-color: #2a2a2a  } /* Literal.String.Backtick */
+  .sc { color: #ed9d13; background-color: #2a2a2a  } /* Literal.String.Char */
+  .sd { color: #ed9d13; background-color: #2a2a2a  } /* Literal.String.Doc */
+  .s2 { color: #ed9d13; background-color: #2a2a2a  } /* Literal.String.Double */
+  .se { color: #ed9d13; background-color: #2a2a2a  } /* Literal.String.Escape */
+  .sh { color: #ed9d13; background-color: #2a2a2a  } /* Literal.String.Heredoc */
+  .si { color: #ed9d13; background-color: #2a2a2a  } /* Literal.String.Interpol */
   .sx { color: #ffa500 } /* Literal.String.Other */
-  .sr { color: #ed9d13 } /* Literal.String.Regex */
-  .s1 { color: #ed9d13 } /* Literal.String.Single */
-  .ss { color: #ed9d13 } /* Literal.String.Symbol */
+  .sr { color: #ed9d13; background-color: #2a2a2a  } /* Literal.String.Regex */
+  .s1 { color: #ed9d13; background-color: #2a2a2a  } /* Literal.String.Single */
+  .ss { color: #ed9d13; background-color: #2a2a2a  } /* Literal.String.Symbol */
   .bp { color: #24909d } /* Name.Builtin.Pseudo */
   .vc { color: #40ffff } /* Name.Variable.Class */
   .vg { color: #40ffff } /* Name.Variable.Global */
